@@ -188,7 +188,6 @@ public class Principal extends AppCompatActivity implements ListView.OnItemClick
                         int tempCentigrados = convertirToCentigrados(temp);
 
 
-
                         //guardamos objetos de tipo Clima en el arreglo llamado clima
                         clima[i] = new Clima(ciudad,tempCentigrados,descripcion,imagen);
 
