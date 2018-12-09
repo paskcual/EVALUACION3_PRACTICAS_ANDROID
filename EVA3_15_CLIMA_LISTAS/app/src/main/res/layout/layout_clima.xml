@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgVwClima_layoutclima"
+        android:layout_width="119dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/sunny" />
+
+    <TextView
+        android:id="@+id/txtVwCiudad_layoutclima"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgVwClima_layoutclima"
+        android:text="Ciudad"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVwTemperatura_layoutclima"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVwCiudad_layoutclima"
+        android:layout_toEndOf="@+id/imgVwClima_layoutclima"
+        android:text="Temperatura"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVwDescipcion_layoutclima"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVwTemperatura_layoutclima"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/imgVwClima_layoutclima"
+        android:text="Descripcón"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+</RelativeLayout>
